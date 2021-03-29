@@ -10,8 +10,8 @@ import React from 'react';
 
 import {
   SafeAreaView,
-  ScrollView,
-  StatusBar,
+  View,
+  
   useColorScheme,
 } from 'react-native';
 
@@ -19,6 +19,7 @@ import {
   Colors,
   Header
 } from 'react-native/Libraries/NewAppScreen';
+import { LayoutList } from './src/components/MainPage';
 
 
 const App = () => {
@@ -30,13 +31,11 @@ const App = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
+      <View
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
-
-      </ScrollView>
+        <LayoutList />
+      </View>
     </SafeAreaView>
   );
 };

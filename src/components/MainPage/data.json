@@ -1,0 +1,24 @@
+[
+    {
+        "name": "The Willows",
+        "address": "3517 W. Gray St. Utica",
+        "rooms": 3,
+        "baths": 2,
+        "area": 230,
+        "rate": 4.7,
+        "price": 400,
+        "like": true,
+        "image":"https://images.adsttc.com/media/images/5be9/fd5c/08a5/e5a5/8c00/008f/large_jpg/CARLES_FAUS_ARQUITECTURA_-_CARMEN_HOUSE_(2).jpg?1542061390"
+    },
+    {
+        "name": "OrchadHouse",
+        "address": "3517 W. Gray St. Utica",
+        "rooms": 3,
+        "baths": 2,
+        "area": 230,
+        "rate": 4.7,
+        "price": 400,
+        "like": true,
+        "image":"https://q4g9y5a8.rocketcdn.me/wp-content/uploads/2020/02/home-banner-2020-02-min.jpg"
+    }
+]
