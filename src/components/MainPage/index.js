@@ -1,4 +1,4 @@
-import LayoutList from './layout'
-import MinimalItem from './minimalItem'
+import LayoutList from './layout';
+import MinimalItem from './minimalItem';
 
-export { LayoutList, MinimalItem }
+export {LayoutList, MinimalItem};
